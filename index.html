@@ -4,43 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sdsdsd</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 36px;
-            color: #333;
-        }
-
-        h2 {
-            font-size: 24px;
-            color: #666;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 30px;
-            background-color: #0077FF;
-            color: #fff;
-            font-size: 18px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
@@ -52,23 +15,5 @@
             <p>This is the content that will be shown when you click the button.</p>
         </div>
     </div>
-
-    <script>
-        const button = document.getElementById('toggle-button');
-        const title = document.getElementById('title');
-        const subtitle = document.getElementById('subtitle');
-        const content = document.getElementById('content');
-        const audio = new Audio('moonlight.mp3'); // Replace with your audio file
-        audio.volume = 0.2;
-
-        button.addEventListener('click', function() {
-            button.style.display = 'none'; // Hide the button
-            title.style.display = 'block'; // Show the title
-            subtitle.style.display = 'block'; // Show the subtitle
-            content.style.display = 'block'; // Show the content
-            audio.play(); // Autoplay the audio
-        });
-    </script>
-
 </body>
 </html>
